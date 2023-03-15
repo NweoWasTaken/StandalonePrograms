@@ -2,6 +2,7 @@
 
 ![](https://custom-icon-badges.demolab.com/badge/Made%20in-Batch-000?style=for-the-badge&logo=windowsterminal&logoColor=fff) ![](https://custom-icon-badges.demolab.com/badge/Only%20for-Windows-000?style=for-the-badge&logo=windows&logoColor=00adef )
 
+*[Direct download of latest version ℹ](https://github.com/NweoWasTaken/StandalonePrograms/releases/download/MayorUpdate/Main.bat)*
 
 This script allows you to organize and keep your non-installer program files in a dedicated folder for easier and tidier access to executables. The script copies all files from the user-specified location and moves them to a folder in your profile. In addition, it creates a shortcut on your desktop so you can quickly access your program.
 
