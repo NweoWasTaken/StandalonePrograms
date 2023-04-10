@@ -5,9 +5,10 @@ exit )
 set spath=%userprofile%\StandalonePrograms
 echo Please enter the path to the .exe folder... && set /p folder=
 echo Please enter the .exe file name... ( also the .exe) && set /p exe=
-echo How do you want this program to be "nicknamed"?... && set /p nick= && set out=%spath%\%nick%
+echo How do you want this program to be "nicknamed"?... && set /p nick=
+set out=%spath%\%nick%
 mkdir %out% && cls && echo Creating files, wait... 
-xcopy /s /i %folder% %out%>nul && cls
+cd %out% && xcopy /s /i %folder% %out%>nul && cls
 echo Set oWS = WScript.CreateObject("WScript.Shell") > %spath%\CreateShortcut.vbs
 echo sLinkFile = "%HOMEDRIVE%%HOMEPATH%\Desktop\%nick%.lnk" >> %spath%\CreateShortcut.vbs
 echo Set oLink = oWS.CreateShortcut(sLinkFile) >> %spath%\CreateShortcut.vbs
